@@ -26,6 +26,7 @@ def run():
         clave = [clave[i:i + 3] for i in range(0,9,3)]
         return  matriz, clave
     
+    #Output
     print(encriptador(mensaje,clave))
     
     
